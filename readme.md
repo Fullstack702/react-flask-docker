@@ -24,6 +24,4 @@ Stop instances :: docker-compose down
 
 Stop and Delete all containers :: `docker container stop $(docker container ls -aq) && docker container rm $(docker container ls -aq)`
 
-_Cheers!_
-
 
